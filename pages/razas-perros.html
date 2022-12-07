@@ -63,52 +63,70 @@
     </header>
 
     <main>
-      <h2>Cada raza es unica</h2>
-      <img src="../img/perros-medianos.jpg" alt="" />
-      <h3>
-        Obtené información de expertos sobre el temperamento y las necesidades
-        de más de 300 razas de perro. Desplazate o hacé una búsqueda para
-        encontrar la raza que buscás
-      </h3>
+      <div class="unica container-fluid">
+        <h2>Cada raza es unica</h2>
+          <img class="img-fluid" src="../img/dalmatarazas.webp" alt="grupo de perros" />
+        <p class="fs-5">
+          Obtené información de expertos sobre el temperamento y las necesidades
+          de más de 300 razas de perro. Desplazate o hacé una búsqueda para
+          encontrar la raza que buscás.
+        </p>
+      </div>
 
-      <section>
-        <h4>Muy pequeño</h4>
-        <img src="../img/pomerano.jpg" alt="" />
-        <h5>Pomerano</h5>
+      <section class="razamuypequeña container-fluid">
+        <h4>Muy pequeño:</h4>
+          <div class="muypequeños">
+            <div class="bordes">
+                <img class="img-fluid" src="../img/chihuahua.png" alt="perro chihuahua" />
+              <h5>Chihuahua</h5>
+            </div>
+            <div class="bordes">
+                <img class="img-fluid" src="../img/crestadochino.png" alt="perro crestado chino" />
+              <h5>Perro crestado chino</h5>
+            </div>
+            <div class="bordes">
+                <img class="img-fluid" src="../img/spanieljapones.png" alt="spaniel japones" />
+              <h5>Spaniel japones</h5>
+            </div>
+            <div class="bordes">
+                <img class="img-fluid" src="../img/yorkshire.png" alt=" perro yorkshire" />
+              <h5>Yorkshire terrier</h5>
+            </div>
+          </div>
       </section>
 
-      <section>
-        <h4>Pequeños</h4>
-        <img src="../img/terrier-de-boston.jpg" alt="" />
+      <section class="razapequeños container-fluid ">
+        <h4>Pequeño:</h4>
+        <img class="img-fluid" src="../img/terrier-de-boston.jpg" alt="terrier de boston" />
         <h5>Boston Terrier</h5>
       </section>
 
-      <section>
-        <h4>Mediano</h4>
-        <img src="../img/beagle" alt="" />
+      <section class="razamediano  container-fluid">
+        <h4>Mediano:</h4>
+        <img class="img-fluid" src="../img/beagle" alt="perro beagle" />
         <h5>Beagle</h5>
       </section>
 
-      <section>
-        <h4>Grande</h4>
-        <img src="../img/perro-dogo-argentino.jpg" alt="" />
+      <section class="razagrande container-fluid">
+        <h4>Grande:</h4>
+        <img class="img-fluid" src="../img/perro-dogo-argentino.jpg" alt="dogo argentino" />
         <h5>Dogo Argentino</h5>
       </section>
 
-      <section>
-        <h4>Gigante</h4>
-        <img src="../img/leonberger-1.jpg" alt="" />
+      <section class="razagigante container-fluid">
+        <h4>Gigante:</h4>
+        <img class="img-fluid" src="../img/leonberger-1.jpg" alt="Leonberger" />
         <h5>Leonberger</h5>
       </section>
 
-      <section>
-        <h4>Perros mestizos</h4>
-        <img src="../img/perromestizo.jpg" alt="" />
-        <h5>
+      <section class="mestizo container-fluid">
+        <h4>Perros mestizos:</h4>
+        <img class="img-fluid" src="../img/perromestizo.jpg" alt="perro mestizo" />
+        <p class="text-center fs-5">
           Si tu perro es mestizo, está formado por más de una raza y, por lo
           tanto, tiene muchos rasgos únicos de cada una.
-        </h5>
-        <p>
+        </p>
+        <p class="p-3 text-center">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe nostrum
           dicta quod voluptate voluptas, sequi molestiae sed. Ullam, culpa
           sapiente vero repellat quas dolorem eveniet ratione nisi, veniam
@@ -119,11 +137,12 @@
         </p>
       </section>
 
-      <section>
-        <h4>Alimento adecuado para cada raza</h4>
-        <h5>Productos especificos para las necesidades de tu perro</h5>
-          <a href="./productos.html"><button>Ver productos</button></a>
+      <section class="alimentoadecuado container-fluid p-2">
+        <h4 class="text-center fs-3">Alimento adecuado para cada raza</h4>
+        <p class=" text-center">Productos especificos para las necesidades de tu perro</p>
+          <a class="d-flex justify-content-center" href="./productos.html"><button>Ver productos</button></a>
         </button>
+        <img class="img-fluid p-1" src="../img/comida.jpg" alt="perro siendo alimentado">
       </section>
 
     </main>
@@ -137,7 +156,7 @@
           <span>Seguinos en:</span>
         </div>
 
-        <div class="logoredes d-flex">
+        <div class="logoredes d-flex justify-content-center p-2">
           <a href="" class="me-4 text-reset">
             <img class="" src="../img/facebook.png" alt="logo de facebook" />
             <i class="fab fa-facebook-f"></i>
