@@ -15,7 +15,7 @@ a {
 }
 
 body {
-  background-color: #f3f3f3;
+  background-color: #e6d7d7;
 }
 
 .btn {
@@ -164,6 +164,52 @@ header h1 {
   header ul {
     display: flex;
     gap: 50px;
+  }
+}
+.registro {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #f3f3f3;
+}
+.registro__titulo {
+  text-align: center;
+}
+.registro__nombre {
+  display: flex;
+  flex-direction: column;
+}
+.registro__datos {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 998px) {
+  .registro {
+    text-align: center;
+  }
+  .registro__formulario {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .registro__inicio {
+    text-align: start;
+  }
+  .registro__datos {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    width: 350px;
+  }
+  .registro__nombre {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+  }
+  .registro__sexo {
+    display: flex;
+    flex-direction: column;
   }
 }
 .carousel {
@@ -543,6 +589,14 @@ header h1 {
   background-color: bisque;
 }
 
+@media (min-width: 600px) and (max-width: 998px) {
+  .razasxs__card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    justify-items: center;
+  }
+}
 @media (min-width: 998px) {
   .unica {
     gap: 15px;
@@ -738,20 +792,6 @@ header h1 {
     grid-template-columns: repeat(3, 1fr);
   }
 }
-.registro {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  background-color: #f3f3f3;
-}
-.registro__titulo {
-  text-align: center;
-}
-.registro__nombre {
-  display: flex;
-  flex-direction: column;
-}
-
 .seguimiento {
   background-color: bisque;
   background: linear-gradient(to bottom, #f3f3f3, bisque, orange);
@@ -768,31 +808,6 @@ header h1 {
 }
 
 @media (min-width: 998px) {
-  .registro {
-    text-align: center;
-  }
-  .registro__formulario {
-    flex-direction: row;
-    justify-content: space-evenly;
-  }
-  .registro__inicio {
-    text-align: start;
-  }
-  .registro__datos {
-    display: flex;
-    flex-direction: column;
-    text-align: start;
-    width: 350px;
-  }
-  .registro__nombre {
-    display: flex;
-    flex-direction: column;
-    width: 350px;
-  }
-  .registro__sexo {
-    display: flex;
-    flex-direction: column;
-  }
   .seguimiento {
     padding: 50px;
     flex-direction: row;

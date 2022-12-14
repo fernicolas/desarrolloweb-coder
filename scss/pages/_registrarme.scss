@@ -1,17 +1,4 @@
-.registro{
-    display:$display;
-    flex-direction: column;
-    text-align: center;
-    background-color: $color-secundario;
-    &__titulo{
-        text-align: center;
-    }
-    &__nombre{
-        display: $display;
-        flex-direction: column;
-        
-    }
-}
+
 .seguimiento{
     background-color:bisque;
     background: linear-gradient(to bottom, #f3f3f3, bisque, orange);
@@ -28,33 +15,6 @@
 }
 
 @media(min-width:998px) {
-    .registro{
-        text-align: center;
-        &__formulario{
-            flex-direction: row;
-            justify-content: space-evenly;
-        }
-        &__inicio{
-            text-align: start;
-        }
-        &__datos{
-            display: $display;
-            flex-direction: column;
-            text-align: start;
-            width: 350px;
-
-        }
-        &__nombre{
-            display: $display;
-            flex-direction: column;
-            width: 350px;
-        }
-        &__sexo{
-            display: $display;
-            flex-direction: column;
-        }
-        
-    }
     .seguimiento{
         padding: 50px;
         flex-direction: row;
@@ -75,4 +35,6 @@
             padding-right: 50px;
         }
     }
+
 }
+

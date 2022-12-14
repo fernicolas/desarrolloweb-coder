@@ -1,0 +1,30 @@
+
+header {
+    width:auto;
+    display: flex;
+    background-color: $color-primario;
+    justify-content: space-between;
+
+        h1 {
+            color:$color-secundario;
+            font-family: $font-family;
+            font-weight: 700;
+        }
+}
+
+@media (min-width:768px) {
+    header {
+        display:$display;
+        padding: 8px 0px;
+        @include flexbox;
+
+        h1 {
+            font-size: 70px;
+        }
+
+        ul {
+            display: $display;
+            gap:50px;
+        }
+    }
+}

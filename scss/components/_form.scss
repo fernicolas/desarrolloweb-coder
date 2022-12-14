@@ -1,0 +1,49 @@
+.registro{
+    display:$display;
+    flex-direction: column;
+    text-align: center;
+    background-color: $color-secundario;
+    &__titulo{
+        text-align: center;
+    }
+    &__nombre{
+        display: $display;
+        flex-direction: column;
+        
+    }
+    &__datos{
+        display: $display;
+        flex-direction: column;
+    }
+}
+
+
+@media(min-width:998px) {
+    .registro{
+        text-align: center;
+        &__formulario{
+            display:$display;
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+        &__inicio{
+            text-align: start;
+        }
+        &__datos{
+            display: $display;
+            flex-direction: column;
+            text-align: start;
+            width: 350px;
+
+        }
+        &__nombre{
+            display: $display;
+            flex-direction: column;
+            width: 350px;
+        }
+        &__sexo{
+            display: $display;
+            flex-direction: column;
+        }
+    }
+}
