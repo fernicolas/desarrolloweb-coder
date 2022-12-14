@@ -1,0 +1,42 @@
+
+
+
+.pagina-accesorios{
+    display: $display;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.accesorios {
+    display: $display;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 20px;
+    align-items: center;
+    &__img {
+        width: 300px;
+        height: 300px;
+        border-radius: 50px;
+    }
+}
+
+@media (min-width:768px) {
+    .accesorios{
+        display: grid;
+        grid-template-columns: repeat(2 ,1fr);
+        grid-template-rows:repeat(6 ,1fr) ;
+        justify-items: center;
+        gap: 20px;
+        padding: 20px 20px;
+        &__tarjeta:hover {
+            transform: translateY(-15px);
+            box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+            filter: opacity(0.9);
+        }
+    }
+}
+@media (min-width:1200px) {
+    .accesorios {
+        grid-template-columns: repeat(3 ,1fr);
+    }
+}

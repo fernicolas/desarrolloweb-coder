@@ -1,0 +1,119 @@
+
+.unica {
+    background:linear-gradient(to top, #f3f3f3, rgb(84, 138, 196), rgb(60, 130, 228));
+    display: $display;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    &__titulo{
+
+        font-style: italic;
+        font-size: 2rem;
+        text-align: center;
+    }
+
+}
+.razasxs{
+    display:$display;
+    flex-direction: column;
+    &__bordes{
+        height: 350px;
+        border: solid 2px #9e9c9c;
+        background-color: #ffffff;
+        text-align: center;
+    }
+    &__card{
+        display:$display;
+        flex-direction: column;
+        gap: 8px;
+    }
+    &__nombre  {
+        padding: 50px ;
+    }
+}
+.razassm{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.mestizo {
+    text-align: center;
+    border: solid 2px #9e9c9c;
+    padding: 25px 15px;
+    margin-top: 8px;
+    background-color: $color-primario;
+    color: $color-secundario;
+    &__txt {
+        font-style: italic;
+    }
+}
+
+.alimentoadecuado{
+    border: solid 2px #9e9c9c;
+    margin-top: 8px;
+    padding: 5px 5px;
+    background-color: bisque;
+}
+
+@media (min-width:998px) {
+    .unica{
+        gap: 15px
+        ;
+        &__titulo{
+            font-size: 2.8rem;
+        }
+        &__foto{
+            width: 60vw;
+            height: auto;
+        }
+    }
+    .razasxs{
+        &__card{
+            display: $display;
+            flex-direction: row;
+            gap: 20px;
+            justify-content: space-between;
+            padding: 20px 20px;
+        }
+    }
+    .mestizo{
+        text-align: start;
+        &__card{
+            display: $display;
+            gap: 50px;
+        }
+        &__info{
+            display: $display;
+            flex-direction: column;
+        }
+        &__foto{
+            height: 320px;
+            width: 350px;
+            object-fit: contain;
+        }
+    }
+    .alimentoadecuado{
+        display: $display;
+        &__card {
+            display: $display;
+            flex-direction: row;
+            width: 100vw;
+            justify-content: space-evenly;
+            padding: 20px 20px;
+        }
+        &__imagn{
+            width: 500px;
+            height: 400px;
+            object-fit: cover;
+            box-shadow: $box-shadows;
+        }
+        &__texto{
+            display: $display;
+            flex-direction: column;
+            gap: 60px;
+            font-style: italic;
+        }
+    }
+
+}

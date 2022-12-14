@@ -1,0 +1,111 @@
+.especifica {
+    flex-direction: column;
+    display: $display;
+    text-align: center;
+    font-family:'Ranga';
+    &__titulo {
+        font-size: 2rem;
+    }
+    &__salud {
+        flex-direction: column;
+        align-items: center;
+    }
+    &__imagen {
+        width: 70vw;
+        height: 300px;
+        object-fit: cover;
+    }
+    &__parra {
+        font-size: 16px;
+    }
+}
+
+.semper{
+    background: linear-gradient(to bottom,#d3d9ea , #297ac0);
+    &__alimento {
+        box-shadow: 0 0 20px rgb(68, 162, 255);
+        padding: 50px 0px;
+    }
+    &__durantedia{
+        width:auto;
+        border:#000000 solid 5px;
+        padding: 8px 8px;
+    }
+}
+
+.nutricion {
+    padding: 20px 5px;
+}
+@media (min-width:998px){
+    .especifica{
+        &__titulo {
+            flex-direction: row;
+            font-size: 3.5rem;
+        }
+        &__salud {
+            padding: 20px 20px;
+            flex-direction: row;
+            gap: 140px;
+        }
+        &__imagen {
+            width:550px;
+            height: 450px;
+            box-shadow: $box-shadows;
+        }
+        &__parra {
+            font-size: 1.5rem;
+            width: 60vw;
+        }
+    }
+
+    .nutricion {
+        padding:20px 0px;
+        &__izquierda{
+            padding: 0px 10px;
+        border-right:2px solid gray;
+        }
+    }
+    .semper{
+        &__alimento{
+        display: $display;
+        align-items: center;
+        }
+        &__camino{
+            height: 480px;
+            width: 480px;
+            object-fit: cover;
+            box-shadow:$box-shadows;
+            border-radius: 50%;
+        }
+        &__manzana{
+            height: 480px;
+            width: 480px;
+            object-fit: cover;
+            box-shadow:$box-shadows;
+            border-radius: 50%;
+
+            }
+        
+        &__verdades {
+            text-align: center;
+        }
+        &__titulo{
+            font-size: 2rem;
+            padding: 30px 20px;
+            font-style: italic;
+        }
+
+        &__cuantasveces {
+            display: $display;
+            justify-content: center;
+            padding: 30px;
+        }
+        &__durantedia{
+            width: 400px;
+            border:#000000 solid 5px;
+            border-radius: 10px 40px 40px 10px;
+            padding: 6px 6px;
+
+        }
+    }
+}

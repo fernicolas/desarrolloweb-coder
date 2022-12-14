@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -17,7 +18,7 @@
       href="https://fonts.googleapis.com/css2?family=Keania+One&family=Kenia&family=Ranga:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <title>Semper Fidelis |🐕‍🦺</title>
+    <title>Nutricion especifica para cada perro |🐕‍🦺</title>
   </head>
 </html>
 <body>
@@ -27,7 +28,7 @@
 
       <a class="navbar-brand" href="#"></a>
       <button
-        class="navbar-toggler"
+        class="navegacion navbar-toggler"
         type="button"
         data-bs-toggle="collapse"
         data-bs-target="#navbarNav"
@@ -37,7 +38,7 @@
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-      <nav class="inicio collapse navbar-collapse" id="navbarNav">
+      <nav class="navegacion__inicio collapse navbar-collapse" id="navbarNav">
         <ul>
           <li class="nav-item">
             <a class="nav-link" aria-current="page" href="../index.html"
@@ -68,154 +69,163 @@
 
   <main>
     <section class="especifica">
-      <h1>Nutricion especifica para el cuidado de la salud</h1>
-      <div class="salud fs-4 d-flex flex-xxl-row">
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor dolore
-          repudiandae laboriosam deleniti, veritatis expedita beatae ex nulla
-          omnis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic
-          impedit sit aspernatur deleniti labore, inventore asperiores enim,
-          alias quis ab sequi ex placeat odio? Explicabo obcaecati sequi velit
-          numquam officiis. <br />
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio ab, id
-          cumque a vel asperiores, at et numquam ipsa dolores facere
-          reprehenderit repellendus illo alias?
+      <h1 class="especifica__titulo">
+        Nutricion especifica para el cuidado de la salud
+      </h1>
+      <div class="especifica__salud fs-4 d-flex flex-xxl-row">
+        <p class="especifica__parra">
+          Los alimentos balanceados de alta calidad son formulados por equipos
+          de especialistas, prestando especial atención a las necesidades
+          nutricionales específicas de cada perro según su tamaño y etapa de
+          vida. Sin embargo, el nivel de actividad también va a modificar estos
+          requerimientos por lo que un alimento que ha sido diseñado para un
+          perro de familia con actividad promedio brindará nutrientes
+          específicos para mantener una adecuada digestión, un pelaje brillante
+          y la salud dental. La diferencia más evidente entre un alimento
+          “normal” y uno específico tiene que ver con el aporte calórico. Es
+          claro que un perro que se ejercita regularmente necesita más energía
+          para mantener movimiento y el trabajo mental. Además, las fuentes a
+          partir de las cuales puede obtener esta energía varían de acuerdo con
+          el nivel y a la duración del esfuerzo que esté realizando. Obtienen
+          energía de tres clases de nutrientes que priorizarán según la
+          intensidad y la duración del esfuerzo que realicen.
         </p>
-        <img class="img-fluid" src="../img/nutricionespe.jpg" alt="comida para perro" />
+        <img
+          class="img-fluid especifica__imagen"
+          src="../img/nutricionespe.jpg"
+          alt="comida para perro"
+        />
       </div>
     </section>
-
 
     <section>
       <div class="nutricion container text-start">
         <div class="col d-lg-flex flex-lg-row gap-4">
-          <div class="quenutricion col">
-            <h2 class="fs-2">¿Que es la nutricion especifica?</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
-              aliquam vitae architecto, nisi iusto, temporibus, nobis voluptatem
-              soluta sapiente laudantium a dolorum excepturi illo est
-              laboriosam. Cum minima deserunt non! Lorem ipsum dolor sit amet
-              consectetur, adipisicing elit. Officia veritatis eos suscipit,
-              tempora expedita nam veniam est neque accusantium obcaecati vero,
-              aut magnam incidunt molestias dolorem nihil deleniti
-              necessitatibus minima!
+          <div class="nutricion__izquierda col">
+            <h2 class="nutricion__titulo fs-2">
+              ¿Que es la nutricion especifica?
+            </h2>
+            <p class="fs-4">
+              Cada fórmula individual está diseñada para brindar el nivel exacto
+              de antioxidantes naturales, vitaminas, fibra, prebióticos y
+              minerales que son esenciales para las necesidades de salud únicas
+              de tu mascota.
             </p>
           </div>
-          <div class="col">
+          <div class="d-flex align-items-center col">
             <img
               class="perronutricion img-fluid"
               src="../img/dosperrosrio.jpg"
               alt="perro en el rio"
+              data-aos="flip-down"
             />
           </div>
-          <div class="col">
+          <div class="col fs-4">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
-              aliquam vitae architecto, nisi iusto, temporibus, nobis voluptatem
-              soluta sapiente laudantium a dolorum excepturi illo est
-              laboriosam. Cum minima deserunt non! Lorem ipsum dolor sit amet
-              consectetur, adipisicing elit. Officia veritatis eos suscipit,
-              tempora expedita nam veniam est neque accusantium obcaecati vero,
-              aut magnam incidunt molestias dolorem nihil deleniti
-              necessitatibus minima!
+              Los perros son animales ancestralmente carnívoros. Tienen dientes
+              afilados y puntiagudos para desgarrar la carne y triturar huesos,
+              y un tracto gastrointestinal mucho más corto que el de los
+              herbívoros, diseñado para la digestión de carne (que no necesita
+              fermentación).
             </p>
           </div>
         </div>
       </div>
     </section>
 
-   
-    <section class="semper container-fluid text-center">
-            <div class="alimento">
-                <div class="camino container">
-                    <img class="img-fluid" src="../img/camino.jpg" alt="perro en un camino">
-                </div>
-                <div class="verdades container">
-                    <h3>
-                        Verdades en la nutrición del perro
-                    </h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias quibusdam quod corrupti ab. Repudiandae laudantium nesciunt harum neque nulla? Praesentium labore sint ex nesciunt tempore?
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae at eligendi ab totam numquam suscipit porro voluptatum sunt deleniti molestias aliquid hic saepe, laboriosam nihil, modi unde deserunt doloribus optio?
-                    </p>
-                </div>
-                <div class="manzana container">
-                    <img  class="img-fluid" src="../img/manzana.jpg" alt="perro con canasto de manzana">
-                </div>
-            </div>
+    <section
+      class="semper container-fluid text-center"
+      data-aos="fade-up"
+      data-aos-anchor-placement="top-bottom"
+    >
+      <div class="semper__alimento">
+        <div class="container">
+          <img
+            class="semper__camino img-fluid"
+            src="../img/camino.jpg"
+            alt="perro en un camino"
+            data-aos="fade-down-right"
+          />
+        </div>
+        <div class="semper__verdades container">
+          <h3 class="semper__titulo">Verdades en la nutrición del perro</h3>
+          <p class="semper__parrafo">
+            Muchas veces hemos escuchado que los perros solo pueden consumir
+            alimentos especiales y que tenemos prohibido darle de nuestra comida
+            porque podría generar grandes daños irreparables en su salud, sin
+            embargo, no siempre es así. <br />
+            Es importante no hacer cambios bruscos en la alimentación de sus
+            mascotas porque puede generar serios problemas en su salud. Se debe
+            a que las exigencias nutricionales son diferentes para cada tipo de
+            perro, no es lo mismo un Beagle, un Chihuahua o un Gran Danés. Es en
+            ese sentido, que la alimentación suele cambiar dependiendo del peso,
+            actividad y tipo de raza.
+          </p>
+        </div>
+        <div class="container">
+          <img
+            class="semper__manzana img-fluid"
+            src="../img/manzana.jpg"
+            alt="perro con canasto de manzana"
+            data-aos="fade-down-left"
+          />
+        </div>
+      </div>
     </section>
 
-    <article class="cuantasveces text-center">
-
-        <div class="durantedia">
-            <h5>¿Sabes cuantas veces debe comer un perro durante un día?</h5>
-            <p>Para que tu amigo canino tenga una buena salud es importante que desde cachorro sepas cuál es la Alimentación adecuada para perros cachorros, y de esta manera le puedas brindar una nutrición y un cuidado adecuado.
-                Según la raza, se recomienda que se alimente una a dos veces al día. Si tu perro es pequeño, su barriguita también lo será y tal vez necesite alimentarse con mayor frecuencia, aunque en menor cantidad.
-                Del mismo modo, las razas más grandes que tienen tendencia a tragar con rapidez la comida, puede beneficiarse de dos comidas más pequeñas en lugar de sola una bastante copiosa. Comer con velocidad (engullir) un montón de comida a la vez puede provocar problemas intestinales.
-            </p>
-        </div>
-
+    <article class="semper__cuantasveces text-center" data-aos="zoom-in-up">
+      <div class="semper__durantedia">
+        <h5 class="semper__subtitulo">
+          ¿Sabes cuantas veces debe comer un perro durante un día?
+        </h5>
+        <p>
+          Para que tu amigo canino tenga una buena salud es importante que desde
+          cachorro sepas cuál es la Alimentación adecuada para perros cachorros,
+          y de esta manera le puedas brindar una nutrición y un cuidado
+          adecuado. Según la raza, se recomienda que se alimente una a dos veces
+          al día. Si tu perro es pequeño, su barriguita también lo será y tal
+          vez necesite alimentarse con mayor frecuencia, aunque en menor
+          cantidad. Del mismo modo, las razas más grandes que tienen tendencia a
+          tragar con rapidez la comida, puede beneficiarse de dos comidas más
+          pequeñas en lugar de sola una bastante copiosa. Comer con velocidad
+          (engullir) un montón de comida a la vez puede provocar problemas
+          intestinales.
+        </p>
+      </div>
     </article>
-
-    <footer class="text-center">
-      <div
-        class="d-flex flex-column justify-content-center justify-content-lg-around"
-      >
-        <div class="me-5 d-none d-lg-block text-center fs-3">
-          <span>Seguinos en:</span>
-        </div>
-
-        <div class="logoredes d-flex">
-          <a href="" class="me-4 text-reset">
-            <img class="" src="../img/facebook.png" alt="logo de facebook" />
-            <i class="fab fa-facebook-f"></i>
-          </a>
-          <a href="" class="me-4 text-reset">
-            <img src="../img/twitter.png" alt="logo de twitter" />
-            <i class="fab fa-twitter"></i>
-          </a>
-          <a href="" class="me-4 text-reset">
-            <img
-              src="../img/logotipo-de-instagram.png"
-              alt="logo de instagram"
-            />
-            <i class="fab fa-instagram"></i>
-          </a>
-
-          <a href="" class="me-4 text-reset">
-            <img src="../img/youtube.png" alt="logo de youtube" />
-            <i class="fab fa-github"></i>
-          </a>
-        </div>
+  </main>
+  <footer class="footer">
+    <div class="footer__redes">
+      <span class="footer__span">Seguinos en:</span>
+      <div class="footer__logoredes">
+        <img src="../img/logotipo-de-instagram.png" alt="logo instagram" />
+        <img src="../img/facebook.png" alt="logo facebook" />
+        <img src="../img/twitter.png" alt="logo twitter" />
+        <img src="../img/youtube.png" alt="logo youtube" />
       </div>
+    </div>
 
-      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-        <p class="mb-4 fs-3">Enlaces de utilidad</p>
-        <p>
-          <a href="#!" class="text-reset">Politica de privacidad</a>
-        </p>
-        <p>
-          <a href="#!" class="text-reset">Preguntas frecuentes</a>
-        </p>
-        <p>
-          <a href="#!" class="text-reset">Cambios y devoluciones</a>
-        </p>
-      </div>
+    <div class="footer__enlaces">
+      <span class="footer__span">Enlaces de utilidad</span>
+      <i>Politicas de privacidad</i>
+      <i>Cambios y devoluciones</i>
+      <i>Preguntas frecuentes</i>
+    </div>
 
-      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-        <p class="fs-3">Ayuda y contacto</p>
-        <p><i class="fas fa-home me-3"></i>Llamanos al 0000000</p>
-        <p>
-          <i class="fas fa-envelope me-3 text-break"></i>
-          Contacta con nuestro servicio de atencion al cliente de lunes a
-          viernes de 09hs -18hs.
-        </p>
-        <p><i class="fas fa-phone me-3"></i> Escribenos</p>
-      </div>
-    </footer>
-    <script
+    <div class="footer__ayuda">
+      <span class="footer__span">Ayuda y contacto</span>
+      <i>Llamanos al 0000000</i>
+      <i>Escribenos</i>
+      <i>Servicio de atencion al cliente</i>
+    </div>
+  </footer>
+  <script
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
     crossorigin="anonymous"
   ></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>

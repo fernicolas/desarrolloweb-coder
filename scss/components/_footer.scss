@@ -1,0 +1,59 @@
+.footer {
+    background-color:$color-primario;
+    height: auto;
+    width: 100%;
+    display: $display;
+    flex-direction: column;
+    @include flexbox;
+    color: black;
+    &__redes {
+    text-align: center;
+    padding: 10px 0px;
+    display:$display;
+    flex-direction: column;
+    gap: 30px;
+  
+
+    }
+    &__span{
+        font-size: 20px;
+        padding: 10px 0px;
+    }
+    &__span a {
+        text-decoration: none;
+        color: black;
+    }
+    &__logoredes {
+        display: flex;
+        gap: 20px;
+      
+    }
+    &__logoredes img {
+        width: 40px;
+        height: 40px;
+    }
+    &__enlaces {
+        display: $display;
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+        padding: 30px;
+    }
+    &__ayuda {
+        display: $display;
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+        padding: 10px 0px;
+
+    }
+}
+
+@media (min-width:768px) {
+    .footer{
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: baseline;
+    }
+    
+}

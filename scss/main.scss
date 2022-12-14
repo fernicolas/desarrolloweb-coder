@@ -1,0 +1,15 @@
+@import "./utils/variables";
+@import "./utils/mixin";
+
+@import "./base/base";
+
+@import "./components/botones";
+@import "./components/navbar";
+@import "./components/tarjeta";
+
+@import "./pages/index";
+@import "./pages/accesorios";
+@import "./pages/razas-perros";
+@import "./pages/nutricion-especifica";
+@import "./pages/productos";
+@import "./pages/registrarme";

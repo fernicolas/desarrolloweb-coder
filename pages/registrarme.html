@@ -17,7 +17,7 @@
       href="https://fonts.googleapis.com/css2?family=Keania+One&family=Kenia&family=Ranga:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <title>Semper Fidelis |🐕‍🦺</title>
+    <title>Registrarme y obtener beneficios |🐕‍🦺</title>
   </head>
   <body>
     <header class="navbar navbar-expand-lg p-3">
@@ -26,7 +26,7 @@
 
         <a class="navbar-brand" href="#"></a>
         <button
-          class="navbar-toggler"
+          class="navegacion navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNav"
@@ -36,7 +36,7 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <nav class="inicio collapse navbar-collapse" id="navbarNav">
+        <nav class="navegacion__inicio collapse navbar-collapse" id="navbarNav">
           <ul>
             <li class="nav-item">
               <a class="nav-link" aria-current="page" href="../index.html"
@@ -66,99 +66,101 @@
     </header>
 
     <main>
-      <section>
-        <h2>Registrarme</h2>
-        <div class="formulario">
-          <h3>1-Datos de inicio de sesion:</h3>
-          <input type="text" placeholder="Email" />
-          <input type="password" placeholder="Contraseña" />
-          <h3>2-Datos personales</h3>
-          <input type="text" placeholder="Nombres" />
-          <input type="text" placeholder="Apellidos" />
-          <input type="date" placeholder="Nacimiento" />
-          <input type="number" placeholder="Dni" />
+      <section class="registro">
+        <h2 class="registro__titulo fs-1">Registrarme</h2>
 
-          <h4>Sexo</h4>
-          <label for="seleccione sexo">Seleccione una opcion</label>
-          <select name="" id="sexo">
-            <option value="hombre">Hombre</option>
-            <option value="mujer">Mujer</option>
-            <option value="otro">Otro</option>
-          </select>
-        </div>
+        <form class="registro__formulario container">
+          <article class="registro__datos">
+            <h3 class="registro__inicio">Datos de inicio de sesion</h3>
+            <label for="email">Email:</label>
+            <input type="email" id="email" />
+            <label for="Contraseña">Contraseña:</label>
+            <input type="password" id="Contraseña" />
+          </article>
+
+          <article>
+            <div class="registro__nombre">
+              <h3 class="registro__personales">Datos personales</h3>
+              <label for="nombre">Nombres:</label>
+              <input type="text" id="nombre" />
+              <label for="apellido">Apellidos:</label>
+              <input type="text" id="apellido" />
+
+              <label for="nacimiento">Nacimiento:</label>
+              <input type="date" id="nacimiento" />
+              <label for="dni">Numero de documento:</label>
+              <input type="number" id="dni" />
+            </div>
+          </article>
+          <article class="registro__sexo">
+            <h4>Sexo</h4>
+            <label for="sexo">Seleccione una opcion</label>
+            <select name="" id="sexo">
+              <option value="hombre">Hombre</option>
+              <option value="mujer">Mujer</option>
+              <option value="otro">Otro</option>
+            </select>
+          </article>
+        </form>
+        <article class="text-center p-3">
+          <button class="btn">Registrarme</button>
+        </article>
       </section>
 
-      <section>
-        <div class="botonregistrarme">
-          <button>REGISTRARME</button>
-        </div>
-
-        <h2>Seguimiento de pedido</h2>
-        <h3>Hace el seguimiento de tu compra</h3>
-        <button>Seguir</button>
-
-        <h2>¿Necesita ayuda?</h2>
-        <img src="" alt="" />
-        <h4>Preguntas frecuentes</h4>
-        <img src="" alt="" />
-        <h4>Chat</h4>
+      <section class="seguimiento">
+        <article class="seguimiento__pedido text-center">
+          <p class="fs-4 text-decoration-underline">Seguimiento de pedido</p>
+          <p>Hace el seguimiento de tu compra</p>
+          <button class="btn">Seguir</button>
+        </article>
+        <article class="seguimiento__chat text-center">
+          <div class="seguimiento__necesita">
+            <p class="fs-4 text-decoration-underline">¿Necesita ayuda?</p>
+            <a href="">
+              <img
+                class="img-fluid seguimiento__icon"
+                src="../img/ayuda.png"
+                alt="ayuda"
+            /></a>
+            <p class="fs-5">Ayuda</p>
+          </div>
+          <div>
+            <p class="fs-4 text-decoration-underline">Preguntas frecuentes</p>
+            <a href="">
+              <img
+                class="img-fluid seguimiento__icon"
+                src="../img/chat.png"
+                alt="chat"
+            /></a>
+            <p class="fs-5">Chat</p>
+          </div>
+        </article>
       </section>
     </main>
 
-    <footer class="text-center">
-      <div
-        class="d-flex flex-column justify-content-center justify-content-lg-around"
-      >
-        <div class="me-5 d-none d-lg-block text-center fs-3">
-          <span>Seguinos en:</span>
-        </div>
-
-        <div class="logoredes d-flex">
-          <a href="" class="me-4 text-reset">
-            <img class="" src="../img/facebook.png" alt="logo de facebook" />
-            <i class="fab fa-facebook-f"></i>
-          </a>
-          <a href="" class="me-4 text-reset">
-            <img src="../img/twitter.png" alt="logo de twitter" />
-            <i class="fab fa-twitter"></i>
-          </a>
-          <a href="" class="me-4 text-reset">
-            <img
-              src="../img/logotipo-de-instagram.png"
-              alt="logo de instagram"
-            />
-            <i class="fab fa-instagram"></i>
-          </a>
-
-          <a href="" class="me-4 text-reset">
-            <img src="../img/youtube.png" alt="logo de youtube" />
-            <i class="fab fa-github"></i>
-          </a>
+    <footer class="footer">
+      <div class="footer__redes">
+        <span class="footer__span">Seguinos en:</span>
+        <div class="footer__logoredes">
+          <img src="../img/logotipo-de-instagram.png" alt="logo instagram" />
+          <img src="../img/facebook.png" alt="logo facebook" />
+          <img src="../img/twitter.png" alt="logo twitter" />
+          <img src="../img/youtube.png" alt="logo youtube" />
         </div>
       </div>
 
-      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-        <p class="mb-4 fs-3">Enlaces de utilidad</p>
-        <p>
-          <a href="#!" class="text-reset">Politica de privacidad</a>
-        </p>
-        <p>
-          <a href="#!" class="text-reset">Preguntas frecuentes</a>
-        </p>
-        <p>
-          <a href="#!" class="text-reset">Cambios y devoluciones</a>
-        </p>
+      <div class="footer__enlaces">
+        <span class="footer__span">Enlaces de utilidad</span>
+        <i>Politicas de privacidad</i>
+        <i>Cambios y devoluciones</i>
+        <i>Preguntas frecuentes</i>
       </div>
 
-      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-        <p class="fs-3">Ayuda y contacto</p>
-        <p><i class="fas fa-home me-3"></i>Llamanos al 0000000</p>
-        <p>
-          <i class="fas fa-envelope me-3 text-break"></i>
-          Contacta con nuestro servicio de atencion al cliente de lunes a
-          viernes de 09hs -18hs.
-        </p>
-        <p><i class="fas fa-phone me-3"></i> Escribenos</p>
+      <div class="footer__ayuda">
+        <span class="footer__span">Ayuda y contacto</span>
+        <i>Llamanos al 0000000</i>
+        <i>Escribenos</i>
+        <i>Servicio de atencion al cliente</i>
       </div>
     </footer>
     <script

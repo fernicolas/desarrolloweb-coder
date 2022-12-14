@@ -1,0 +1,17 @@
+.navegacion {
+    background-color: $color-secundario;
+    border-radius: 30%;
+    border: #d3d9ea 2px solid;
+
+    &__inicio {
+        display: flex;
+        justify-content: end;
+        color:#f3f3f3;
+        gap: 8px;
+    }
+}
+@media (min-width:768px){
+    .navegacion__inicio {
+        display: flex;
+    }
+}
