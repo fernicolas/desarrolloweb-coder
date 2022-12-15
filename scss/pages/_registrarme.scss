@@ -11,6 +11,10 @@
     &__icon{
         width: 100px;
         height: 100px;
+        &:hover{
+            transform: translateY(-15px);
+            transition: 1s;
+        }
     }
 }
 

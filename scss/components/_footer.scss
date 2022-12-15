@@ -26,11 +26,15 @@
     &__logoredes {
         display: flex;
         gap: 20px;
-      
     }
     &__logoredes img {
         width: 40px;
         height: 40px;
+        &:hover{
+            transform: translateY(-15px);
+            transition: 0.5s;
+
+        }
     }
     &__enlaces {
         display: $display;
