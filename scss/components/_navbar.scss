@@ -1,5 +1,6 @@
 header{
     background-color: $color-primario;
+    width: 100vw;
 }
 
 .navegacion {
@@ -12,12 +13,26 @@ header{
         justify-content: end;
         color:#f3f3f3;
         gap: 8px;
-        width: 100vw;
     }
 }
+.nav-item a{
+    font-size: 1.2rem;
+    background: linear-gradient(to right,orange 50%, #ffffff  50%);
+    background-size: 200% 100%;
+    background-position: 100% 0;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.nav-item a:hover{
+    background-position: 0 0;
+    transition: 1s;
+}
+
 .navegacion__inicio ul{
     gap: 10px;
 }
+
+
 
 @media (min-width:768px){
     .navegacion__inicio {
@@ -30,5 +45,4 @@ header{
         gap: 30px;
         
     }
-
 }

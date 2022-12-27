@@ -16,6 +16,8 @@ a {
 
 body {
   background-color: #e6d7d7;
+  height: 100vh;
+  width: 100vw;
 }
 
 .btn {
@@ -46,6 +48,7 @@ body {
 
 header {
   background-color: #297ac0;
+  width: 100vw;
 }
 
 .navegacion {
@@ -58,7 +61,20 @@ header {
   justify-content: end;
   color: #f3f3f3;
   gap: 8px;
-  width: 100vw;
+}
+
+.nav-item a {
+  font-size: 1.2rem;
+  background: linear-gradient(to right, orange 50%, #ffffff 50%);
+  background-size: 200% 100%;
+  background-position: 100% 0;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.nav-item a:hover {
+  background-position: 0 0;
+  transition: 1s;
 }
 
 .navegacion__inicio ul {
