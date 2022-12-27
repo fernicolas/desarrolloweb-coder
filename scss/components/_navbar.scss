@@ -20,8 +20,8 @@ header{
     background: linear-gradient(to right,orange 50%, #ffffff  50%);
     background-size: 200% 100%;
     background-position: 100% 0;
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+    -webkit-background-clip:text;
 }
 .nav-item a:hover{
     background-position: 0 0;
