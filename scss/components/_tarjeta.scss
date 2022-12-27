@@ -12,7 +12,17 @@
 
 }
 
-
+.bordes{
+    height: 330px;
+    border: solid 2px #9e9c9c;
+    background-color: #ffffff;
+    text-align: center;
+}
+.bordes:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+    filter: opacity(0.9);
+}
 
 .productos__tarjeta{
     width: 350px;

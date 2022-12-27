@@ -1,5 +1,6 @@
 
 .unica {
+    width: auto;
     background:linear-gradient(to top, #f3f3f3, rgb(84, 138, 196), rgb(60, 130, 228));
     display: $display;
     flex-direction: column;
@@ -16,12 +17,7 @@
 .razasxs{
     display:$display;
     flex-direction: column;
-    &__bordes{
-        height: 350px;
-        border: solid 2px #9e9c9c;
-        background-color: #ffffff;
-        text-align: center;
-    }
+   
     &__card{
         display:$display;
         flex-direction: column;
@@ -34,6 +30,7 @@
 .razassm{
     display: flex;
     flex-direction: column;
+   
 
 }
 

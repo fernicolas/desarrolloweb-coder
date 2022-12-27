@@ -2,6 +2,8 @@
 .carousel{
     height: 25vh;
     object-fit: cover;
+    width:auto;
+    margin: 10px;
 }
 @media (min-width:360px) {
     .carousel {
@@ -26,6 +28,7 @@
 @media (min-width:998px){
     .carousel{
         height: 900px;
+        width: 90%;
     }
 }
 
@@ -35,6 +38,7 @@
     padding: 10px 5px;
     display: $display;
     flex-direction: column;
+    margin: 10px;
         &__tarj{
             margin: 5px;
             padding: 5px 0px;

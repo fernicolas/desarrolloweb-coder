@@ -8,10 +8,23 @@
         justify-content: end;
         color:#f3f3f3;
         gap: 8px;
+        width: 100vw;
     }
 }
+.navegacion__inicio ul{
+    gap: 10px;
+}
+
 @media (min-width:768px){
     .navegacion__inicio {
         display: flex;
+        gap: 8px;
     }
+}
+@media (min-width:998px) {
+    .navegacion__inicio ul{
+        gap: 30px;
+        
+    }
+
 }
