@@ -44,6 +44,10 @@ body {
   color: black;
 }
 
+header {
+  background-color: #297ac0;
+}
+
 .navegacion {
   background-color: #f3f3f3;
   border-radius: 30%;
