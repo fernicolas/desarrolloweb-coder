@@ -343,8 +343,9 @@ header h1 {
 .razas__texto {
   padding: 120px 20px;
   position: relative;
-  color: #f3f3f3;
+  color: #ffb703;
   max-width: 600px;
+  text-align: center;
 }
 
 @keyframes movimiento {
