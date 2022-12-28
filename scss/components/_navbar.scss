@@ -21,7 +21,8 @@ header{
     background-size: 200% 100%;
     background-position: 100% 0;
     -webkit-text-fill-color:transparent;
-    -webkit-background-clip:text;
+    -webkit-background-clip: text ;
+    
 }
 .nav-item a:hover{
     background-position: 0 0;
@@ -43,6 +44,5 @@ header{
 @media (min-width:998px) {
     .navegacion__inicio ul{
         gap: 30px;
-        
     }
 }

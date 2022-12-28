@@ -1,4 +1,5 @@
 * {
+  border: solid red 2px;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -16,8 +17,6 @@ a {
 
 body {
   background-color: #e6d7d7;
-  height: 100vh;
-  width: 100vw;
 }
 
 .btn {
@@ -129,7 +128,7 @@ header {
 .footer {
   background-color: #297ac0;
   height: auto;
-  width: 100%;
+  width: auto;
   display: flex;
   flex-direction: column;
   display: flex;
@@ -609,7 +608,7 @@ header h1 {
   gap: 8px;
 }
 .razasxs__nombre {
-  padding: 50px;
+  padding: 20px;
 }
 
 .razassm {
@@ -706,6 +705,7 @@ header h1 {
   display: flex;
   text-align: center;
   font-family: "Ranga";
+  width: 100vw;
 }
 .especifica__titulo {
   font-size: 2rem;
@@ -724,10 +724,10 @@ header h1 {
 }
 
 .semper {
+  width: auto;
   background: linear-gradient(to bottom, #d3d9ea, #297ac0);
 }
 .semper__alimento {
-  box-shadow: 0 0 20px rgb(68, 162, 255);
   padding: 50px 0px;
 }
 .semper__durantedia {

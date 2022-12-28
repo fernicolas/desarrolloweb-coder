@@ -3,6 +3,7 @@
     display: $display;
     text-align: center;
     font-family:'Ranga';
+    width: 100vw;
     &__titulo {
         font-size: 2rem;
     }
@@ -21,9 +22,10 @@
 }
 
 .semper{
+    width:auto;
     background: linear-gradient(to bottom,#d3d9ea , #297ac0);
     &__alimento {
-        box-shadow: 0 0 20px rgb(68, 162, 255);
+        
         padding: 50px 0px;
     }
     &__durantedia{

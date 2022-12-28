@@ -1,7 +1,7 @@
 .footer {
     background-color:$color-primario;
     height: auto;
-    width: 100%;
+    width: auto;
     display: $display;
     flex-direction: column;
     @include flexbox;
