@@ -851,6 +851,7 @@ header h1 {
     padding: 20px 20px;
   }
   .productos__tarjeta:hover {
+    transition: 0.5s;
     transform: translateY(-15px);
     box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
     filter: opacity(0.9);
