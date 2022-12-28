@@ -15,6 +15,9 @@
         display: $display;
         flex-direction: column;
     }
+    &__formulario input{
+        background-color:slategray;
+    }
 }
 
 
