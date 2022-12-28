@@ -600,22 +600,40 @@ header h1 {
   text-align: center;
 }
 
-.razasxs {
+.razaxs {
   display: flex;
   flex-direction: column;
+  background-color: #e0e2db;
+  border-bottom: #5e6472 2px solid;
 }
-.razasxs__card {
+.razaxs__card {
   display: flex;
   flex-direction: column;
   gap: 8px;
 }
-.razasxs__nombre {
+.razaxs__nombre {
   padding: 20px;
 }
 
 .razassm {
   display: flex;
   flex-direction: column;
+  background-color: #d2d4c8;
+  border-bottom: #5e6472 2px solid;
+}
+
+.razamd {
+  background-color: #b8bdb5;
+  border-bottom: #5e6472 2px solid;
+}
+
+.razagrande {
+  background-color: #889696;
+  border-bottom: #5e6472 2px solid;
+}
+
+.razagigante {
+  background-color: #5f7470;
 }
 
 .mestizo {
@@ -638,7 +656,7 @@ header h1 {
 }
 
 @media (min-width: 600px) and (max-width: 998px) {
-  .razasxs__card {
+  .razaxs__card {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(1, 1fr);
